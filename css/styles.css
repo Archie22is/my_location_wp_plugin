@@ -1,0 +1,53 @@
+/**
+ *
+ *
+ */
+
+
+#map-canvas{
+    border: 1px solid #ccc;
+    height: 18.750em;
+    width: 100%;
+}
+
+/* Form */
+#coordform{
+    display: block;
+    margin: 1.250em 0;
+}
+
+#coordform label{
+    display: block;
+    marign: 0;
+    width: 100%;
+}
+
+#coordform label.red-strong{
+    color: #ff0000;
+    margin: 1.250em 0;
+    font-size: 0.938em;
+}
+
+#coordform p.update-error{
+    color: #ff0000;
+    /* border: 1px solid #ff0000; */
+    display: block;
+    width: 100%;
+}
+
+#coordform input.sendform{
+    background: none repeat scroll 0 0 #2EA2CC;
+    border-color: #0074A2;
+    box-shadow: 0 1px 0 rgba(120, 200, 230, 0.5) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    color: #FFFFFF;
+    font-size: 0.875em;
+    height: 2.875em;
+    line-height: 2.750em;
+    margin: 0.938em 0 0.188em;
+    padding: 0 2.250em;
+    text-decoration: none;
+}
+
+#coordform input.sendform:hover,{
+    box-shadow: none;
+}
